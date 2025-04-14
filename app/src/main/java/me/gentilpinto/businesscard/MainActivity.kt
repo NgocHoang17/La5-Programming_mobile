@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
             BusinessCardTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
-                    modifier = Modifier.fillMaxSize(), color = Color(0xFF073042)
+                    modifier = Modifier.fillMaxSize(), color = Color(0xFF0E4449)
                 ) {
                     BusinessCard()
                 }
@@ -59,7 +59,7 @@ fun BusinessCard() {
         Divider(modifier = Modifier.fillMaxWidth(), color = Color(0xFF4F6C79))
         ContactRow(
             text = stringResource(R.string.my_phone_number),
-            textBlur = 5.dp,
+            //textBlur = 5.dp,
             icon = Icons.Rounded.Phone
         )
         Divider(modifier = Modifier.fillMaxWidth(), color = Color(0xFF4F6C79))
